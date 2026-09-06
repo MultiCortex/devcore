@@ -104,5 +104,20 @@
     "typescript": "^5.8.3",
     "@vscode/test-cli": "^0.0.11",
     "@vscode/test-electron": "^2.5.2"
+  },
+  "dependencies": {
+  }, 
+  "overrides": {
+    "@eslint/plugin-kit": "0.3.4",
+     "@humanfs/node": "0.16.8",
+     "ajv": "6.14.0",
+     "diff": "8.0.3",
+     "flatted": "3.4.2",
+     "glob": "10.5.0",
+     "js-yaml": "4.3.1",
+     "minimatch": "3.1.4",
+     "serialize-javascript": "7.0.5",
+     "picomatch": "2.3.2"
   }
+   
 }

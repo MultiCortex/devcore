@@ -16,5 +16,8 @@
     "@octokit/graphql": "9.0.1",
     "@octokit/rest": "catalog:",
     "@opencode-ai/sdk": "workspace:*"
+  },
+  "overrides": {
+    "undici": "6.28.0"
   }
 }
