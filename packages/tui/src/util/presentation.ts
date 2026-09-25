@@ -1,6 +1,20 @@
-const logo = {
-  left: ["                   ", "█▀▀█ █▀▀█ █▀▀█ █▀▀▄", "█__█ █__█ █^^^ █__█", "▀▀▀▀ █▀▀▀ ▀▀▀▀ ▀~~▀"],
-  right: ["             ▄     ", "█▀▀▀ █▀▀█ █▀▀█ █▀▀█", "█___ █__█ █__█ █^^^", "▀▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀▀"],
+const multicortex = [
+  "████▄  ██████ ██  ██ ▄█████ ▄████▄ █████▄  ██████",
+  "██  ██ ██▄▄   ██▄▄██ ██     ██  ██ ██▄▄██▄ ██▄▄",
+  "████▀  ██▄▄▄▄  ▀██▀  ▀█████ ▀████▀ ██   ██ ██▄▄▄▄",
+]
+
+const width = Math.max(...multicortex.map((line) => line.length))
+const split = Math.floor(width / 2)
+
+export const logo = {
+  left: multicortex.map((line) => line.padEnd(width).slice(0, split)),
+  right: multicortex.map((line) => line.padEnd(width).slice(split)),
+}
+
+export const go = {
+  left: [" ", "█▀▄▀█", "█ ▀ █", "▀   ▀"],
+  right: [" ", "█▀▀", "█▄▄", "▀▀▀"],
 }
 
 const reset = "\x1b[0m"
@@ -32,7 +46,7 @@ export function sessionEpilogue(input: { title: string; sessionID?: string }) {
     ...wordmark("  "),
     "",
     `  ${weak("Session")}${bold}${input.title}${reset}`,
-    `  ${weak("Continue")}${bold}opencode -s ${input.sessionID}${reset}`,
+    `  ${weak("Continue")}${bold}devcore -s ${input.sessionID}${reset}`,
     "",
   ].join("\n")
 }

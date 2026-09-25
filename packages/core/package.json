@@ -127,6 +127,7 @@
     "zod": "catalog:"
   },
   "overrides": {
-    "drizzle-orm": "catalog:"
+    "drizzle-orm": "catalog:",
+    "valibot": "1.4.2"
   }
 }
