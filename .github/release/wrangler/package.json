@@ -3,5 +3,9 @@
   "description": "The pinned wrangler CLI deploy-files.sh and deploy-update.sh run; npm ci --ignore-scripts installs exactly package-lock.json.",
   "dependencies": {
     "wrangler": "4.110.0"
+  },
+  "overrides": {
+    "sharp": "0.35.5",
+    "undici": "7.30.1"
   }
 }

@@ -47,7 +47,7 @@
     "tldts": "7.5.1"
   },
   "devDependencies": {
-    "@happy-dom/global-registrator": "20.0.11",
+    "@happy-dom/global-registrator": "21.0.4",
     "@lydell/node-pty": "catalog:",
     "@opencode/protocol": "workspace:*",
     "@tsconfig/node22": "catalog:",

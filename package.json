@@ -46,7 +46,7 @@
       "@effect/platform-node-shared": "4.1.0",
       "@effect/sql-sqlite-bun": "4.1.0",
       "@effect/sql-sqlite-node": "4.1.0",
-      "@npmcli/arborist": "9.4.0",
+      "@npmcli/arborist": "10.0.5",
       "@types/bun": "1.4.3",
       "@hona/strobe": "0.42.0",
       "@types/cross-spawn": "6.0.6",
@@ -78,7 +78,7 @@
       "effect": "4.1.0",
       "fast-check": "4.9.0",
       "cross-spawn": "7.0.6",
-      "hono": "4.13.13",
+      "hono": "4.13.16",
       "fuzzysort": "3.1.0",
       "get-east-asian-width": "1.6.0",
       "luxon": "3.6.1",
@@ -99,10 +99,11 @@
       "@solidjs/router": "1.0.0",
       "@solidjs/start": "2.1.0",
       "@sentry/solid": "10.71.0",
-      "@sentry/vite-plugin": "5.4.0",
+      "@sentry/vite-plugin": "11.14.0",
       "solid-js": "1.9.17",
       "solid-sonner": "0.3.1",
       "vite-plugin-solid": "2.11.10",
+      "glob": "14.0.6",
       "@lydell/node-pty": "1.2.0-beta.12"
     }
   },
@@ -116,7 +117,7 @@
     "@types/mime-types": "3.0.1",
     "@types/react": "19.2.17",
     "@typescript/native": "catalog:",
-    "glob": "13.0.5",
+    "glob": "14.0.6",
     "husky": "9.1.7",
     "oxlint": "1.93.0",
     "prettier": "3.6.2",
@@ -152,8 +153,44 @@
     "@types/node": "catalog:",
     "bun-types": "1.4.4",
     "effect": "catalog:",
+    "fflate": "0.7.5",
     "open": "11.0.4",
-    "solid-js": "catalog:"
+    "@ai-sdk/provider-utils": "4.0.33",
+    "sharp": "0.35.5",
+    "solid-js": "catalog:",
+    "miniflare": {
+      "undici": "7.30.1"
+    },
+    "babel-plugin-module-resolver": {
+      "glob": "14.0.6"
+    },
+    "gaxios": {
+      "rimraf": "6.1.4"
+    },
+    "vite-plugin-icons-spritesheet": {
+      "glob": "14.0.6"
+    },
+    "workbox-build": {
+      "glob": "14.0.6"
+    },
+    "@npmcli/arborist": {
+      "minimatch": "11.0.9"
+    },
+    "app-builder-lib": {
+      "minimatch": "11.0.9"
+    },
+    "@electron/universal": {
+      "minimatch": "11.0.9"
+    },
+    "@cloudflare/config": {
+      "zod": "4.6.7"
+    },
+    "chromium-bidi": {
+      "zod": "4.6.7"
+    },
+    "gitlab-ai-provider": {
+      "zod": "4.6.7"
+    }
   },
   "patchedDependencies": {
     "@ai-sdk/openai-compatible@2.0.41": "patches/@ai-sdk%2Fopenai-compatible@2.0.41.patch",

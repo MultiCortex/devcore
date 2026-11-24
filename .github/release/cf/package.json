@@ -3,5 +3,10 @@
   "description": "The pinned cf CLI that deploy-site.sh runs; npm ci --ignore-scripts installs exactly package-lock.json.",
   "dependencies": {
     "cf": "1.0.0-beta.12"
+  },
+  "overrides": {
+    "sharp": "0.35.5",
+    "undici": "7.30.1",
+    "zod": "4.6.6"
   }
 }
